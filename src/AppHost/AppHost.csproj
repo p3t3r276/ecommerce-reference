@@ -6,4 +6,8 @@
     <UserSecretsId>a359b6fb-aa8f-40b1-8f74-00a5b6c5794f</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+  </ItemGroup>
+
 </Project>
