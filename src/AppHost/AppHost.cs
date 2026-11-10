@@ -1,7 +1,6 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var pg = builder.AddPostgres("pg")
-    .WithImageTag("17")
     .WithDataVolume("shoplab-pg")
     .WithPgAdmin();
 
